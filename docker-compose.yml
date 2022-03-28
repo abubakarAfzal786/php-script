@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  php-script-environment:
+    container_name: php-script
+    image: php:7.4-apache
+    volumes:
+      - ./php:/var/www/html
